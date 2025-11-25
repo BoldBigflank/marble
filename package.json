@@ -17,7 +17,7 @@
     "single-page-markdown-website": "^0.0.25"
   },
   "single-page-markdown-website": {
-    "baseUrl": "https://alexswan.dev/marble/",
+    "baseUrl": "https://alexswan.io/marble/",
     "title": "Marble",
     "description": "Marble's information page",
     "toc": false,
