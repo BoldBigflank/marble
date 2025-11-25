@@ -1,0 +1,34 @@
+{
+  "name": "marble",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "single-page-markdown-website --output ./docs",
+    "start": "single-page-markdown-website '*.md' --watch --open",
+    "prepare": "husky"
+  },
+  "dependencies": {
+    "single-page-markdown-website": "^0.0.25"
+  },
+  "single-page-markdown-website": {
+    "baseUrl": "https://alexswan.dev/marble/",
+    "title": "Marble",
+    "description": "Marble's information page",
+    "toc": false,
+    "sections": false,
+    "links": [
+      {
+        "text": "Call Alex",
+        "url": "tel:+120633000555"
+      }
+    ]
+  },
+  "devDependencies": {
+    "husky": "^9.1.7"
+  }
+}
