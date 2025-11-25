@@ -2,7 +2,7 @@
   "name": "marble",
   "version": "1.0.0",
   "description": "",
-  "license": "ISC",
+  "license": "GPL",
   "author": "",
   "type": "commonjs",
   "main": "index.js",
